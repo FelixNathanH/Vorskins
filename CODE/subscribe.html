@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="subscribe_style.css">
+    <script src="subscribe.js"></script>
+</head>
+<body>
+    
+    <span class="header">
+        <div class="header_left">
+            <img class="head_logo" src="../Assets/logo.png" alt="">
+        </div>
+        
+        <nav class="header_right">
+            <a class="main_link" href="Home.html">Home</a>
+            <a class="main_link" href="Product.html">Product</a>
+            <a class="main_link" href="Promotion.html">Promotion</a>
+            <a class="main_link active_navbar" href="subscribe.html">Subscribe</a>
+            <a class="main_link" href="AboutUs.html">About</a>
+        </nav>
+    </span>
+
+    <div class="pembatas"> . </div>
+
+    <div class="subs_box">
+        <h2>Subscription</h2>
+        
+        <form id="myform">
+                <label class="label" for="fullname">Full Name</label><br>
+                <input class="input" id="fullname" type="text" name="fullname">
+                <br>
+                <label class="label" for="email">e-mail</label><br>
+                <input class="input" id="email" type="text" name="email">
+                <br>
+                <label class="label" for="phonenumber">Phone Number</label><br>
+                <input class="input" id="phonenumber" type="text" name="phonenumber">
+                <br>
+                <label class="label" for="cares">Preference</label>
+                <br>
+                <label class="label" for="skinRB">Skincare</label>
+                <input id="skinRB" type="radio" name="cares">
+                <label class="label" for="bodyRB">Bodycare</label>
+                <input  id="bodyRB" type="radio" name="cares">
+                <br>
+                <label class="label" for="newsletter"><input id="newsletterCB" type="checkbox">I agree to the terms and conditions</label>  
+                <br>
+                <br>
+                <p id="errormessages"></p>
+                <button id="submitbtn" type="submit">Submit</button> 
+        </form>
+    </div>
+
+    <img id="logobackground" src="../Assets/AboutUs.png" alt="">
+
+    <div class="footer">
+        <div class="footer_left">
+            <p>STAY CONNECTED WITH US</p>
+        </div>
+
+        <div class="stayconnected">
+
+            <a href="https://www.facebook.com/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/800px-Facebook_f_logo_%282019%29.svg.png" alt="" id="footer_img">
+            </a>
+            <a href="https://twitter.com/?lang=en">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/934px-Twitter-logo.svg.png " alt="" id="footer_img">
+            </a>
+            <a href="https://www.instagram.com/?hl=en">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png " alt="" id="footer_img">
+            </a>
+
+        </div>
+
+    </div>
+
+
+    
+</body>
+</html>
